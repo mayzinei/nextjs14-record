@@ -1,3 +1,4 @@
+import { notFound } from "next/navigation";
 import React from "react";
 
 export default function ReviewDetail({
@@ -5,6 +6,9 @@ export default function ReviewDetail({
 }: {
 	params: { id: string; reviewId: string };
 }) {
+	if (parseInt(params.reviewId) > 500) {
+		notFound();
+	}
 	return (
 		<div>
 			<h1>
