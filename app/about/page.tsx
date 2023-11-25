@@ -1,5 +1,10 @@
 import React from "react";
 
+//Static Metada object configration
+export const metadata = {
+	title: "About page",
+};
+
 export default function About() {
 	return (
 		<div>
