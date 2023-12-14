@@ -15,9 +15,11 @@ export default function Items() {
 			<h2>
 				<Link href="items/2">Item 2</Link>
 			</h2>
-			{/* "Replace" can go Back to home page */}
+			{/* "Replace" can go back to home page */}
 			<h2>
-				<Link href="items/2">Item 2</Link>
+				<Link href="items/3" replace>
+					Item 3
+				</Link>
 			</h2>
 			<h2>
 				<Link href={`items/${productId}`}>Product {productId}</Link>
