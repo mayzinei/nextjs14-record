@@ -7,8 +7,8 @@ export default function OrderProduct() {
 	const orderHandler = () => {
 		// router.push("/items"); //navigate to the next page
 		router.replace("/"); // same with push()
-		// router.back(); // navigate back to the privious page in the browser's history
-		// router.forword(); // navigate back to the next page in the browser's history
+		// router.back(); // navigate back to the "privious page" in the browser's history
+		// router.forword(); // navigate back to the "next page" in the browser's history
 	};
 	return (
 		<div>
